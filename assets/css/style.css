@@ -464,10 +464,11 @@ a {
   line-height: 154%;
 }
 
-/* ========================features================================= */
+/* ========================features 1================================= */
 .features {
   margin-top: 135px;
   padding: 65px 0;
+  background-color: blue;
 }
 
 .features .body {
@@ -509,4 +510,22 @@ a {
   width: 137px;
   height: 50px;
   background-color: var(--primary-color);
+}
+
+/* ========================features 2================================= */
+.features-2 {
+  margin-top: 70px;
+}
+
+.features-2 .body {
+  flex-direction: row-reverse;
+}
+
+.features-2 .content {
+  width: 49%;
+}
+
+.features-2 .images img {
+  height: 440px;
+  width: 470px;
 }
